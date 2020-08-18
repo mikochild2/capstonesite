@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+.jumbotron {
+    background-color: #b6d7ce !important;
+    height: 80vh;
+}
+
+.jumbotron h1{
+    font-family: 'Chewy', cursive;
+    margin-top: -40px;
+}
+
+.jumbotron{
+    text-align: center;
+}
+
+.jumbotron img{
+    margin-bottom: 20px;
+}
+
