@@ -8,6 +8,7 @@
 .jumbotron h1{
     font-family: 'Chewy', cursive;
     margin-top: -40px;
+    color: #fca4bc
 }
 
 .jumbotron {
@@ -33,7 +34,7 @@
 
 .pecs{
     margin-top: 40px;
-    background-color: #b6d7ce;
+    background-color: #b6d7ce50;
     text-align: center;
     padding: 150px 150px;
 }
@@ -46,5 +47,26 @@
     color: #b6d7ce;
     border-color: #fff; 
     
+}
+
+.final-cta{
+    background-color: #fca4bc;
+}
+
+.final-cta div{
+    padding-bottom: 60px;
+}
+
+.final-cta h2{
+    font-family: 'Chewy', cursive;
+    color: #0f606b;
+}
+
+.footer-padding{
+    padding-top: 40px;
+}
+
+.monster{
+    margin-top: -60px;
 }
 
