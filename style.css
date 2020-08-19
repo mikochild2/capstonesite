@@ -82,3 +82,13 @@
 .social{
     padding-left: 5px;
 }
+
+.message span{
+    /* font-family: 'Chewy', cursive; */
+    font-size: 20pt;
+    font-weight: 800;
+}
+
+.message {
+    margin-bottom: 20px;
+}
