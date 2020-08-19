@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="img\favicon.png" type="image/gif" sizes="16x16">
 
 </head>
 <body>
@@ -21,9 +22,20 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-            <a class="nav-item nav-link" href="https://fast-retreat-22082.herokuapp.com/">Demo</a>
+            <!-- <a class="nav-item nav-link" href="https://fast-retreat-22082.herokuapp.com/" target="_blank">Demo</a> -->
             <!-- <a class="nav-item nav-link" href="#">Pricing</a>
             <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
+            
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  DEMO
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="https://fast-retreat-22082.herokuapp.com/">Launch App</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="https://frozen-dusk-27272.herokuapp.com/api/activities">Activities API</a>
+                  <a class="dropdown-item" href="https://frozen-dusk-27272.herokuapp.com/api/images">Images API</a>
+                </div>
+              
           </div>
         </div>
       </nav>
@@ -135,7 +147,7 @@
       <div class="row footer-padding">
   
         <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
+        <div class="col-md-6 mt-md-0 mt-3 social">
   
           <!-- Content -->
           <h5 class="text-uppercase">Follow Us</h5>
@@ -204,7 +216,7 @@
               <a href="https://docs.google.com/document/d/1IsjPeOHqWo-4TuSxUYkcaUnB_woN6mekbkoKycGjKyY/edit?usp=sharing">Daily Stand-ups</a>
             </li>
             <li>
-                <a href="https://fast-retreat-22082.herokuapp.com/">Demo</a>
+                <a href="https://fast-retreat-22082.herokuapp.com/" target="_blank">Demo</a>
             </li>
           </ul>
   
